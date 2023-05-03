@@ -1,0 +1,134 @@
+:root {
+  /* bg colors */
+  --background: #02050e;
+  --primary: #1e50ff;
+  --secondary: #272d37;
+
+  /* Text colors */
+  --text-gray: #adb9c7;
+  --text-white: #f3f4f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+header {
+  background: #585858;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0 30px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+
+.logo {
+  height: 150%;
+}
+
+.nav,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav {
+  gap: 150px;
+}
+.navbar-list {
+  gap: 30px;
+}
+
+.navbar-list a {
+  color: var(--text-gray);
+  font-size: 17px;
+  cursor: pointer;
+}
+.navbar-list li:last-child > a {
+  color: var(--text-white);
+  font-weight: 500;
+}
+
+main {
+  background: var(--background);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+}
+
+/*section*/
+#hero {
+  margin-top: 60px;
+  padding: 70px 0;
+  max-width: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-info h1 {
+  font-size: 50px;
+  width: 50%;
+  min-width: 500px;
+  font-weight: 800;
+  color: var(--text-gray);
+  margin-left: 70px;
+}
+
+.hero-info p {
+  font-size: 15px;
+  width: 50%;
+  color: var(--text-white);
+  margin-left: 70px;
+}
+
+.hero-info a {
+  color: var(--text-gray);
+  background-color: var(--primary);
+  width: 100px;
+  padding: 8px 0;
+  border-radius: 9px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 150px;
+}
+
+.hero-card {
+  width: 300px;
+  background: var(--secondary);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 70px;
+  gap: 15px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.subtitulo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.descripcion {
+  justify-content: center;
+  padding: 10px 0;
+  max-width: 1000 px;
+  border-top: solid 1px;
+}
