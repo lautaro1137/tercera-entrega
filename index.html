@@ -4,61 +4,175 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tercera entrega</title>
+    <title>Cuarta entrega</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="./assets/style.css" />
+
+    />
   </head>
   <body>
-    <header>
+    <header class="header">
       <img class="logo" src="./assets/logo-3.png" alt="logo-3" />
       <nav class="nav">
+        <label for="toggle-menu"> <i class="fa-solid fa-bars"></i></label>
+        <input type="checkbox" id="toggle-menu" />
         <ul class="navbar-list">
           <li><a href="https://www.youtube.com/">Home</a></li>
-          <li><a href="https://www.youtube.com/">Sobre Nosotros</a></li>
+          <li><a href="https://www.youtube.com/">Nuestros Recursos</a></li>
           <li><a href="https://www.youtube.com/">Iniciar Sersion</a></li>
           <li><a href="https://www.youtube.com/">Registrate Gratis</a></li>
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="main">
       <section id="hero">
         <div class="hero-info">
           <h1>Una nueva forma de aprender compartiendo</h1>
           <p>
-            Apunty es una pagina cuyo prinsipal proposito es compartir tus
-            apuntes, en ella prodras subir tus apuntes de manera rapida y
-            sencilla. Una vez subidos, personas de todas partes podran verlo y
-            comentarlo. De esta forma podras compartir tu conocimiento y a su
-            vez prodras aprender de aquellos que visitan tu perfil
+            Apunty es una plataforma en línea diseñada para estudiantes de todas
+            las edades y niveles educativos que desean colaborar y compartir sus
+            conocimientos con otros compañeros de clase. La página está diseñada
+            para ser intuitiva y fácil de usar, permitiendo a los usuarios
+            compartir y acceder a notas de estudio de forma rápida y sencilla.
           </p>
           <br />
           <a href="#">Comienza ahora</a>
         </div>
         <div class="hero-card">
-          <img src="./assets/img-hero.svg" alt="img-hero" />
+          <img class="imagen-hero" src="./assets/img-hero.svg" alt="img-hero" />
         </div>
       </section>
       <section id="info">
         <div>
           <h2 class="subtitulo">Aprende, Crea y comparte tu conocimiento</h2>
           <p class="descripcion">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora,
-            rerum. Sequi temporibus numquam ipsa voluptatum nam nulla iusto.
-            Amet quae consectetur exercitationem tempora eius, dolores repellat
-            non! Aspernatur, in possimus. Repellat voluptatem, minus quasi
-            praesentium possimus recusandae ipsum ex distinctio, soluta tempora
-            quis ut nobis accusamus hic aut cupiditate corporis aperiam
-            consequatur iure ad assumenda molestias, autem explicabo facere.
-            Libero? Aut ex veniam quis modi, consequuntur tempora commodi
-            adipisci sequi quod explicabo? Fugiat tempore praesentium eum
-            architecto a ad aspernatur omnis vero illo, nulla neque numquam
-            corrupti vel! Saepe, delectus. Lorem ipsum dolor sit amet
-            consectetur adipisicing elit. Asperiores error hic deserunt
-            voluptatem cupiditate, a eveniet eos ipsa tempora ducimus porro
-            sequi minus aliquam fuga assumenda expedita, repellendus voluptates
-            beatae.
+            En Apunty, los usuarios pueden crear su perfil y subir sus propias
+            notas de estudio, ya sean escritas a mano o digitales, para
+            compartirlas con la comunidad. También pueden explorar y descargar
+            las notas de otros usuarios, lo que les permite ahorrar tiempo y
+            mejorar su comprensión de los temas de estudio. La página es una
+            herramienta útil para aquellos que buscan formas de mejorar su
+            aprendizaje y ampliar su conocimiento a través de la colaboración y
+            el intercambio de información. Con una interfaz fácil de usar y una
+            amplia variedad de recursos disponibles, esta plataforma es la
+            elección ideal para aquellos que buscan una forma efectiva y
+            eficiente de compartir y acceder a notas de estudio.
           </p>
         </div>
       </section>
+
+      <section id="cards">
+        <div class="card">
+          <img src="assets/undraw_mathematics_4otb.png" alt="Card 1" />
+          <h3>Apuntes de Matemáticas</h3>
+          <p>
+            Encuentra aquí apuntes completos y organizados sobre matemáticas,
+            desde álgebra hasta cálculo avanzado.
+          </p>
+          <a href="https://www.example.com" class="card-button">Aprende más</a>
+        </div>
+        <div class="card">
+          <img src="./assets/undraw_education_f8ru.png" alt="Card 2" />
+          <h3>Apuntes de Historia</h3>
+          <p>
+            Explora nuestros apuntes detallados sobre historia mundial, desde la
+            antigüedad hasta los eventos más recientes.
+          </p>
+          <a href="https://www.example.com" class="card-button">Aprende más</a>
+        </div>
+        <div class="card">
+          <img src="./assets/undraw_Scientist_ft0o.png" alt="Card 3" />
+          <h3>Apuntes de Ciencias</h3>
+          <p>
+            Descubre apuntes exhaustivos sobre ciencias, incluyendo biología,
+            química y física, para ayudarte a comprender mejor el mundo natural.
+          </p>
+          <a href="https://www.example.com" class="card-button">Aprende más</a>
+        </div>
+      </section>
+
+      <section id="contactos">
+        <h2 class="sub-mobile">Descubrí mas sobre nosotros</h2>
+        <img
+          class="img-contacto"
+          src="./assets/undraw_Contact_us_re_4qqt-removebg-preview.png"
+          alt="img-contacto"
+        />
+        <div class="contacto-1">
+          <h2>Comunidad</h2>
+          <ul>
+            <li>
+              <i class="fab fa-facebook"></i
+              ><a href="https://www.youtube.com/">Facebook</a>
+            </li>
+            <li>
+              <i class="fab fa-instagram"></i
+              ><a href="https://www.youtube.com/">Instagram</a>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i
+              ><a href="https://www.youtube.com/">Twitter</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacto-2">
+          <h2>Soporte Tecnico</h2>
+          <ul>
+            <li>
+              <i class="fa fa-envelope" aria-hidden="true"></i
+              ><a href="https://www.youtube.com/">Email</a>
+            </li>
+            <li>
+              <i class="fa fa-whatsapp" aria-hidden="true"></i
+              ><a href="https://www.youtube.com/ ">Whatsapp</a>
+            </li>
+            <li>
+              <i class="fa fa-telegram" aria-hidden="true"></i
+              ><a href="https://www.youtube.com/">Telegram</a>
+            </li>
+          </ul>
+        </div>
+        <div></div>
+      </section>
+
+      <footer>
+        <div class="footer-container">
+          <div class="footer-logo">
+            <img src="./assets/logo-3.png" alt="Logo" />
+            <h2>Apunty, tu Sitio de Apuntes!!</h2>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Apuntes</a></li>
+              <li><a href="#">Recursos</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="footer-social">
+            <h3>Síguenos en redes sociales:</h3>
+            <ul>
+              <li>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Todos los derechos reservados &copy; 2023 Apunty</p>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
